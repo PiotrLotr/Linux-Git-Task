@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Welcome again my lord!"
+echo "GENERAL SYSTEM INFORMATION"
+/usr/bin/screenfetch
+echo
+echo "SYSTEM DISK USAGE"
+export TERM=xterm; inxi -D
+echo
+echo "CURENT WEATHER AT THE LOCATION"
+ansiweather -l warsaw
+
+
